@@ -44,6 +44,7 @@ header {
   box-shadow: 0 1px 4px hsl(0 4% 15% / 10%);
   z-index: 100;
 }
+/* NAV*/
 
 .nav {
   display: flex;
@@ -52,6 +53,21 @@ header {
   padding: 20px 0;
 }
 
+.nav-link {
+  list-style: none;
+}
+.nav-link li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.nav-link li a {
+  color: var(--text-color);
+  transition: all 0.3s ease 0s;
+}
+
+.nav-link li a:hover {
+  color: var(--main-color);
+}
 .logo {
   font-size: 1.1rem;
   color: var(--text-color);
@@ -160,6 +176,42 @@ header {
   color: var(--text-color);
   cursor: pointer;
 }
+
+/* HERO SECTION*/
+
+#hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+}
+.text-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.text-hero h1 {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.text-hero p {
+  color: var(--text-color);
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-top: 1rem;
+  padding-left: 40px;
+}
+.img-hero {
+  width: 130vh;
+  object-fit: cover;
+}
+
+/* PRODUCT SECTION*/
+
 .section-title {
   font-size: 1.5rem;
   font-weight: 600;
