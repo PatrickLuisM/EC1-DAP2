@@ -138,3 +138,10 @@ function updateTotal() {
 
   document.getElementsByClassName('total-price')[0].innerText = 'S/' + total;
 }
+
+
+/* ENVIAR EL FORMULARIO  */
+
+// const form = document.querySelector(".contact-form"),
+// loader = document.querySelector(""),
+// response = document.querySelector("");
